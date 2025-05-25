@@ -1,0 +1,909 @@
+.meal-plan-pro {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.meal-plan-pro .div {
+    background-color: #f5f5f5;
+    width: 1728px;
+    height: 5850px;
+    position: relative;
+}
+
+.meal-plan-pro .overlap-group {
+    width: 1728px;
+    height: 1229px;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.meal-plan-pro .banner-background {
+    position: absolute;
+    width: 860px;
+    height: 1071px;
+    top: 0;
+    left: 868px;
+}
+
+.meal-plan-pro .navbar-frame {
+    display: flex;
+    width: 1728px;
+    height: 178px;
+    align-items: center;
+    gap: 10px;
+    padding: 56px 215px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.meal-plan-pro .img {
+    position: relative;
+    width: 260.33px;
+    height: 35.64px;
+}
+
+.meal-plan-pro .nabbar-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -27.00px;
+    margin-bottom: -27.00px;
+}
+
+.meal-plan-pro .slice {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.meal-plan-pro .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #373737;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .bookin-now-button {
+    display: flex;
+    width: 218px;
+    height: 72px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 28px 30px;
+    position: relative;
+    background-color: #fe8117;
+    border-radius: 72px;
+    border: 0px none;
+}
+
+.meal-plan-pro .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -5.00px;
+    margin-bottom: -5.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .home-page-text {
+    display: flex;
+    flex-direction: column;
+    width: 693px;
+    align-items: flex-start;
+    gap: 48px;
+    position: absolute;
+    top: 364px;
+    left: 215px;
+}
+
+.meal-plan-pro .p {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .text-wrapper-3 {
+    position: relative;
+    width: 680px;
+    height: 146px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #818181;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.meal-plan-pro .order-now-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 55px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #fe8117;
+    border-radius: 100px;
+    border: 0px none;
+}
+
+.meal-plan-pro .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .material-symbols {
+    position: relative;
+    width: 28px;
+    height: 21.88px;
+    margin-right: -0.50px;
+}
+
+.meal-plan-pro .element {
+    position: absolute;
+    width: 1028px;
+    height: 1090px;
+    top: 139px;
+    left: 700px;
+    object-fit: cover;
+}
+
+.meal-plan-pro .overlap {
+    width: 1713px;
+    height: 2240px;
+    top: 1260px;
+    position: absolute;
+    left: 0;
+}
+
+.meal-plan-pro .about-section {
+    position: absolute;
+    width: 331px;
+    height: 1052px;
+    top: 0;
+    left: 0;
+}
+
+.meal-plan-pro .about-page-banner {
+    position: absolute;
+    width: 985px;
+    height: 679px;
+    top: 637px;
+    left: 728px;
+}
+
+.meal-plan-pro .mpp {
+    position: absolute;
+    width: 755px;
+    height: 508px;
+    top: 168px;
+    left: 0;
+    object-fit: cover;
+}
+
+.meal-plan-pro .about-section-info {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 82px;
+    position: absolute;
+    top: 124px;
+    left: 805px;
+}
+
+.meal-plan-pro .about-section-text {
+    display: flex;
+    flex-direction: column;
+    width: 766px;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.meal-plan-pro .heading {
+    align-items: flex-start;
+    gap: 14px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.meal-plan-pro .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #f4980c;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .text-wrapper-6 {
+    position: relative;
+    width: 693px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -28.00px;
+}
+
+.meal-plan-pro .flexcontainer {
+    width: 794px;
+    height: 301px;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.meal-plan-pro .span-wrapper {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #818181;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.meal-plan-pro .span {
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #818181;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.meal-plan-pro .about-section-2 {
+    display: flex;
+    width: 645px;
+    height: 61px;
+    align-items: center;
+    gap: 75px;
+    position: relative;
+}
+
+.meal-plan-pro .learn-more-button {
+    display: flex;
+    width: 404px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    margin-top: -23.00px;
+    margin-bottom: -23.00px;
+    background-color: #fe8117;
+    border-radius: 100px;
+}
+
+.meal-plan-pro .text-wrapper-7 {
+    position: relative;
+    width: 284px;
+    height: 87px;
+    margin-top: -1.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .watch-video-button {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.meal-plan-pro .material-symbols-2 {
+    position: relative;
+    width: 106px;
+    height: 106px;
+    margin-top: -22.50px;
+    margin-bottom: -22.50px;
+}
+
+.meal-plan-pro .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-right: -136.00px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #505050;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .work-section {
+    display: flex;
+    flex-direction: column;
+    width: 1226px;
+    height: 957px;
+    align-items: center;
+    gap: 120px;
+    padding: 10px 10px 0px;
+    position: absolute;
+    top: 1283px;
+    left: 251px;
+}
+
+.meal-plan-pro .heading-2 {
+    align-items: center;
+    gap: 35px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.meal-plan-pro .text-wrapper-9 {
+    position: relative;
+    width: 693px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .flexcontainer-2 {
+    width: 717px;
+    height: 108px;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.meal-plan-pro .text-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #818181;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .text-wrapper-10 {
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #818181;
+    font-size: 25px;
+    letter-spacing: 0;
+}
+
+.meal-plan-pro .process {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 10px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.meal-plan-pro .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 21px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -4.50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.meal-plan-pro .material-symbols-no {
+    position: relative;
+    width: 141px;
+    height: 141px;
+}
+
+.meal-plan-pro .text-wrapper-11 {
+    position: relative;
+    width: 231px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4f4f4f;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .text-wrapper-12 {
+    position: relative;
+    width: 344px;
+    height: 117px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #474747;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 434px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 21px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.meal-plan-pro .mdi-cursor-pointer {
+    position: relative;
+    width: 131px;
+    height: 131px;
+}
+
+.meal-plan-pro .text-wrapper-13 {
+    position: relative;
+    width: 347px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4f4f4f;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 432px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 21px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -4.50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.meal-plan-pro .mdi-truck-delivery {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.meal-plan-pro .testimonial-section {
+    display: flex;
+    flex-direction: column;
+    width: 1226px;
+    height: 845px;
+    align-items: center;
+    gap: 100px;
+    padding: 10px 0px;
+    position: absolute;
+    top: 3720px;
+    left: 251px;
+}
+
+.meal-plan-pro .text-wrapper-14 {
+    position: relative;
+    width: 705px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 928px;
+    height: 454px;
+    align-items: center;
+    gap: 34px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: -10.00px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 5px 50px #00000005;
+}
+
+.meal-plan-pro .ellipse {
+    position: relative;
+    width: 117px;
+    height: 117px;
+    object-fit: cover;
+}
+
+.meal-plan-pro .flexcontainer-3 {
+    width: 717px;
+    height: 100px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.meal-plan-pro .text-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #505050;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .text-wrapper-15 {
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #505050;
+    font-size: 25px;
+    letter-spacing: 0;
+}
+
+.meal-plan-pro .ratings {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.meal-plan-pro .material-symbols-3 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.meal-plan-pro .testimonial-name {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 3px 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.meal-plan-pro .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1b1b1b;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .contact-section {
+    display: flex;
+    flex-direction: column;
+    width: 1226px;
+    height: 413px;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+    position: absolute;
+    top: 4774px;
+    left: 251px;
+}
+
+.meal-plan-pro .flexcontainer-4 {
+    width: 778px;
+    height: 155px;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.meal-plan-pro .text-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .text-wrapper-17 {
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 60px;
+    letter-spacing: 0;
+}
+
+.meal-plan-pro .frame-4 {
+    display: flex;
+    width: 1052px;
+    height: 148px;
+    align-items: center;
+    gap: 346px;
+    padding: 10px 50px;
+    position: relative;
+    margin-bottom: -10.00px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.meal-plan-pro .text-wrapper-18 {
+    position: relative;
+    width: 345px;
+    height: 68px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #8d8d8d;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .div-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 280px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    margin-right: -19.00px;
+    background-color: #fe9e0d;
+    border-radius: 100px;
+}
+
+.meal-plan-pro .text-wrapper-19 {
+    position: relative;
+    width: 149px;
+    height: 37px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .footer-section {
+    display: flex;
+    width: 1226px;
+    height: 367px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 5385px;
+    left: 251px;
+}
+
+.meal-plan-pro .section {
+    flex-direction: column;
+    width: 267px;
+    gap: 35px;
+    padding: 10px 153px 10px 0px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+}
+
+.meal-plan-pro .text-wrapper-20 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-right: -28.00px;
+    font-family: "Reem Kufi-Medium", Helvetica;
+    font-weight: 500;
+    color: #2f2f2f;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.meal-plan-pro .icon-s {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 10px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -153.00px;
+}
+
+.meal-plan-pro .img-2 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.meal-plan-pro .section-2 {
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+}
+
+.meal-plan-pro .frame-5 {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.meal-plan-pro .text-wrapper-21 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .text-wrapper-22 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .text-wrapper-23 {
+    position: relative;
+    width: fit-content;
+    margin-right: -1.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .text-wrapper-24 {
+    position: relative;
+    width: fit-content;
+    margin-right: -6.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .text-wrapper-25 {
+    position: relative;
+    width: fit-content;
+    margin-right: -30.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.meal-plan-pro .terms-conditions {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-right: -34.00px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #4b4b4b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}

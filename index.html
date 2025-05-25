@@ -1,97 +1,190 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MealPlanPro - Strona Główna</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-    <div class="logo"><img src="logo.png" alt="MealPlanPro Logo"></div>
-    <nav>
-        <ul>
-            <li><a href="#">Strona Główna</a></li>
-            <li><a href="#">Plan Posiłków</a></li>
-            <li><a href="#">Przepisy</a></li>
-            <li><a href="#">Lista Zakupów</a></li>
-            <li><a href="#">Społeczność</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section class="search-container">
-    <input type="text" id="searchInput" placeholder="Szukaj przepisów...">
-</section>
-
-<section class="ads-banner">
-    <img src="ad1.png" alt="Reklama 1">
-    <img src="ad2.png" alt="Reklama 2">
-    <img src="ad3.png" alt="Reklama 3">
-</section>
-
-<main>
-    <section class="posts" id="postsList">
-        <div class="post" data-title="Zdrowe śniadanie">
-            <h3>Zdrowe śniadanie</h3>
-            <p>Pomysły na szybkie i pożywne śniadanie na początek dnia.</p>
+<div class="meal-plan-pro">
+    <div class="div">
+        <div class="overlap-group">
+            <img class="banner-background" src="img/banner-background.png" />
+            <div class="navbar-frame">
+                <img class="img" src="img/meal-plan-pro.svg" />
+                <div class="nabbar-options">
+                    <img class="slice" src="img/slice-1.svg" />
+                    <div class="text-wrapper">Home</div>
+                    <div class="text-wrapper">O nas</div>
+                    <div class="text-wrapper">O nas</div>
+                    <div class="text-wrapper">Kontakt</div>
+                    <div class="bookin-now-button"><div class="text-wrapper-2">Zarejestruj się</div></div>
+                </div>
+            </div>
+            <div class="home-page-text">
+                <p class="p">Zaplanuj posiłki na cały tydzień</p>
+                <p class="text-wrapper-3">
+                    MealPlanPro to aplikacja webowa i mobilna pomagająca użytkownikom planować posiłki na cały tydzień,
+                    automatycznie generować listy zakupów oraz minimalizować marnowanie żywności.
+                </p>
+                <div class="order-now-button">
+                    <div class="text-wrapper-4">Zarejestruj się</div>
+                    <img class="material-symbols" src="img/material-symbols-arrow-right-alt-rounded.svg" />
+                </div>
+            </div>
+            <img class="element" src="img/053ed428-6ae8-4aba-bda2-fc16a344600f-fotor-bg-remover-20250525143326-1.png" />
         </div>
-        <div class="post" data-title="Tani obiad rodzinny">
-            <h3>Tani obiad rodzinny</h3>
-            <p>Przepisy na obiad dla całej rodziny za mniej niż 20 zł.</p>
+        <div class="overlap">
+            <img class="about-section" src="img/about-section-background.png" />
+            <img class="about-page-banner" src="img/about-page-banner-image-background-removed-1.png" />
+            <img class="mpp" src="img/mpp-1.png" />
+            <div class="about-section-info">
+                <div class="about-section-text">
+                    <div class="heading">
+                        <div class="text-wrapper-5">O naszej aplikacji</div>
+                        <p class="text-wrapper-6">Odżywiaj się zdrowo oszczędzając czas i pieniądze</p>
+                    </div>
+                    <div class="text">
+                        <div class="flexcontainer">
+                            <p class="span-wrapper">
+                    <span class="span"
+                    >Aplikacja oferuje spersonalizowane propozycje posiłków dostosowane do preferencji dietetycznych,
+                      posiadanych składników oraz budżetu użytkownika. <br
+                        /></span>
+                            </p>
+                            <p class="span-wrapper">
+                    <span class="span"
+                    >Nasza platforma ułatwia zdrowe odżywianie oraz pozwala oszczędzić czasu i pieniądze poprzez
+                      efektywne planowanie posiłków oraz generowanie zoptymalizowanych list zakupowych.</span
+                    >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-section-2">
+                    <div class="learn-more-button"><div class="text-wrapper-7">Dowiedz się więcej</div></div>
+                    <div class="watch-video-button">
+                        <img class="material-symbols-2" src="img/material-symbols-play-circle-rounded.svg" />
+                        <div class="text-wrapper-8">Zobacz wideo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-section">
+                <div class="heading-2">
+                    <div class="text-wrapper-5">Work</div>
+                    <div class="text-wrapper-9">Jak to działa</div>
+                    <div class="flexcontainer-2">
+                        <p class="text-2">
+                            <span class="text-wrapper-10">Lorem ipsum dolor sit amet consectetur. Non tincidunt <br /></span>
+                        </p>
+                        <p class="text-2">
+                            <span class="text-wrapper-10">magna non et elit. Dolor&nbsp;&nbsp;turpis molestie dui<br /></span>
+                        </p>
+                        <p class="text-2"><span class="text-wrapper-10">magnis facilisis at fringilla quam.</span></p>
+                    </div>
+                </div>
+                <div class="process">
+                    <div class="frame">
+                        <img class="material-symbols-no" src="img/material-symbols-no-meals-rounded.png" />
+                        <div class="text-wrapper-11">Pick Meals</div>
+                        <p class="text-wrapper-12">
+                            Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi
+                            bibendum.
+                        </p>
+                    </div>
+                    <div class="frame-2">
+                        <img class="mdi-cursor-pointer" src="img/mdi-cursor-pointer.png" />
+                        <div class="text-wrapper-13">Choose How Often</div>
+                        <p class="text-wrapper-12">Lorem ipsum dolor sit amet consectetur. Maecenas orci et</p>
+                    </div>
+                    <div class="frame-3">
+                        <img class="mdi-truck-delivery" src="img/mdi-truck-delivery.png" />
+                        <div class="text-wrapper-11">Fast Deliveries</div>
+                        <p class="text-wrapper-12">Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="post" data-title="Wegańskie przekąski">
-            <h3>Wegańskie przekąski</h3>
-            <p>Szybkie przekąski roślinne idealne na spotkania.</p>
+        <div class="testimonial-section">
+            <div class="heading-2">
+                <div class="text-wrapper-5">Testimonial</div>
+                <div class="text-wrapper-14">What They Are Saying</div>
+                <div class="flexcontainer-2">
+                    <p class="text-2">
+                        <span class="text-wrapper-10">Lorem ipsum dolor sit amet consectetur. Non tincidunt <br /></span>
+                    </p>
+                    <p class="text-2">
+                        <span class="text-wrapper-10">magna non et elit. Dolor&nbsp;&nbsp;turpis molestie dui<br /></span>
+                    </p>
+                    <p class="text-2"><span class="text-wrapper-10">magnis facilisis at fringilla quam.</span></p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img class="ellipse" src="img/ellipse-1.png" />
+                <div class="flexcontainer-3">
+                    <p class="text-3">
+                        <span class="text-wrapper-15">Lorem ipsum dolor sit amet consectetur. Non tincidunt <br /></span>
+                    </p>
+                    <p class="text-3">
+                        <span class="text-wrapper-15">magna non et elit. Dolor&nbsp;&nbsp;turpis molestie dui<br /></span>
+                    </p>
+                    <p class="text-3"><span class="text-wrapper-15">magnis facilisis at fringilla quam.</span></p>
+                </div>
+                <div class="ratings">
+                    <img class="material-symbols-3" src="img/material-symbols-star.svg" />
+                    <img class="material-symbols-3" src="img/material-symbols-star-3.svg" />
+                    <img class="material-symbols-3" src="img/material-symbols-star-2.svg" />
+                    <img class="material-symbols-3" src="img/image.svg" />
+                    <img class="material-symbols-3" src="img/material-symbols-star-4.svg" />
+                </div>
+                <div class="testimonial-name"><div class="text-wrapper-16">John Doe</div></div>
+            </div>
         </div>
-        <!-- Więcej postów -->
-    </section>
-
-    <section class="register" id="registerForm">
-        <h2>Zarejestruj się</h2>
-        <form>
-            <input type="text" placeholder="Imię i nazwisko" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Hasło" required>
-            <select required>
-                <option value="">Preferencje dietetyczne</option>
-                <option value="omnivore">Omnivore</option>
-                <option value="vegetarian">Wegetariańska</option>
-                <option value="vegan">Wegańska</option>
-                <option value="glutenfree">Bezglutenowa</option>
-            </select>
-            <button type="submit">Utwórz Konto</button>
-        </form>
-    </section>
-</main>
-
-<section class="partners">
-    <img src="partner1.png" alt="Partner 1">
-    <img src="partner2.png" alt="Partner 2">
-    <img src="partner3.png" alt="Partner 3">
-</section>
-
-<footer>
-    <div class="footer-section">
-        <h4>O nas</h4>
-        <a href="#">O aplikacji</a>
-        <a href="#">Kontakt</a>
-        <a href="#">FAQ</a>
+        <div class="contact-section">
+            <div class="flexcontainer-4">
+                <p class="text-4">
+                    <span class="text-wrapper-17">Have Question In Mind? <br /></span>
+                </p>
+                <p class="text-4"><span class="text-wrapper-17">Let Us Help You</span></p>
+            </div>
+            <div class="frame-4">
+                <div class="text-wrapper-18">yourmail@gmail.com</div>
+                <button class="div-wrapper"><div class="text-wrapper-19">Submit</div></button>
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="section">
+                <div class="text-wrapper-20">FOODIE</div>
+                <div class="icon-s">
+                    <img class="img-2" src="img/mdi-twitter.svg" />
+                    <img class="img-2" src="img/mdi-linkedin.svg" />
+                    <img class="img-2" src="img/mdi-youtube.svg" />
+                    <img class="img-2" src="img/uil-facebook-f.svg" />
+                </div>
+            </div>
+            <div class="section-2">
+                <div class="frame-5">
+                    <div class="text-wrapper-21">Quality</div>
+                    <div class="text-wrapper-22">Help</div>
+                    <div class="text-wrapper-22">Share</div>
+                    <div class="text-wrapper-22">Carrers</div>
+                    <div class="text-wrapper-22">Work</div>
+                    <div class="text-wrapper-22">Testimonials</div>
+                </div>
+                <div class="frame-5">
+                    <div class="text-wrapper-21">244-5333-7783</div>
+                    <div class="text-wrapper-23">hello@food.com</div>
+                    <div class="text-wrapper-24">press@food.com</div>
+                    <div class="text-wrapper-25">contact@food.com</div>
+                </div>
+                <div class="frame-5">
+                    <div class="terms-conditions">Terms &amp; Conditions</div>
+                    <div class="text-wrapper-22">Privacy Policy</div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="footer-section">
-        <h4>Obsługa klienta</h4>
-        <a href="#">Regulamin</a>
-        <a href="#">Polityka prywatności</a>
-    </div>
-    <div class="footer-section">
-        <h4>Newsletter</h4>
-        <form>
-            <input type="email" placeholder="Twój email" required>
-            <button type="submit">Zapisz się</button>
-        </form>
-    </div>
-</footer>
-
-<script src="script.js"></script>
+</div>
 </body>
 </html>
