@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealPlanPro - Strona Główna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo"><img src="logo.png" alt="MealPlanPro Logo"></div>
+    <nav>
+        <ul>
+            <li><a href="#">Strona Główna</a></li>
+            <li><a href="#">Plan Posiłków</a></li>
+            <li><a href="#">Przepisy</a></li>
+            <li><a href="#">Lista Zakupów</a></li>
+            <li><a href="#">Społeczność</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="search-container">
+    <input type="text" id="searchInput" placeholder="Szukaj przepisów...">
+</section>
+
+<section class="ads-banner">
+    <img src="ad1.png" alt="Reklama 1">
+    <img src="ad2.png" alt="Reklama 2">
+    <img src="ad3.png" alt="Reklama 3">
+</section>
+
+<main>
+    <section class="posts" id="postsList">
+        <div class="post" data-title="Zdrowe śniadanie">
+            <h3>Zdrowe śniadanie</h3>
+            <p>Pomysły na szybkie i pożywne śniadanie na początek dnia.</p>
+        </div>
+        <div class="post" data-title="Tani obiad rodzinny">
+            <h3>Tani obiad rodzinny</h3>
+            <p>Przepisy na obiad dla całej rodziny za mniej niż 20 zł.</p>
+        </div>
+        <div class="post" data-title="Wegańskie przekąski">
+            <h3>Wegańskie przekąski</h3>
+            <p>Szybkie przekąski roślinne idealne na spotkania.</p>
+        </div>
+        <!-- Więcej postów -->
+    </section>
+
+    <section class="register" id="registerForm">
+        <h2>Zarejestruj się</h2>
+        <form>
+            <input type="text" placeholder="Imię i nazwisko" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Hasło" required>
+            <select required>
+                <option value="">Preferencje dietetyczne</option>
+                <option value="omnivore">Omnivore</option>
+                <option value="vegetarian">Wegetariańska</option>
+                <option value="vegan">Wegańska</option>
+                <option value="glutenfree">Bezglutenowa</option>
+            </select>
+            <button type="submit">Utwórz Konto</button>
+        </form>
+    </section>
+</main>
+
+<section class="partners">
+    <img src="partner1.png" alt="Partner 1">
+    <img src="partner2.png" alt="Partner 2">
+    <img src="partner3.png" alt="Partner 3">
+</section>
+
+<footer>
+    <div class="footer-section">
+        <h4>O nas</h4>
+        <a href="#">O aplikacji</a>
+        <a href="#">Kontakt</a>
+        <a href="#">FAQ</a>
+    </div>
+    <div class="footer-section">
+        <h4>Obsługa klienta</h4>
+        <a href="#">Regulamin</a>
+        <a href="#">Polityka prywatności</a>
+    </div>
+    <div class="footer-section">
+        <h4>Newsletter</h4>
+        <form>
+            <input type="email" placeholder="Twój email" required>
+            <button type="submit">Zapisz się</button>
+        </form>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
